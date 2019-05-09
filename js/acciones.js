@@ -8,7 +8,7 @@ document.addEventListener("deviceready",function(){
 });
 
 $('#derecha').on("swiperight",function(){
-navigator.notification. confirm("¿Que quieres hacer?",function(opt){
+     navigator.notification. confirm("¿Que quieres hacer?",function(opt){
 switch(opt)
 {
 	case 1:
